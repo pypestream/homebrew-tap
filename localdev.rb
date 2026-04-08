@@ -1,14 +1,14 @@
 class Localdev < Formula
   desc "Local development tool for Kubernetes environments"
   homepage "https://github.com/pypestream/homebrew-tap"
-  version "v2.1.0"
+  version "v1.1.0"
 
   if Hardware::CPU.arm?
-    url "https://fs.gcp.pype.tech/releases/download/v2.1.0/localdev-darwin-arm64"
-    sha256 "e32089f2fda80cbbae3f34caf3659e8bad877e49635cfe4821b6207a52d1c9cd"
+    url "https://fs.gcp.pype.tech/releases/download/v1.1.0/localdev-darwin-arm64"
+    sha256 "5b40ef7dd184efa2e9f5ea7a18221b8bd8f6c626ffadbb643e81a8e133abc62d"
   else
-    url "https://fs.gcp.pype.tech/releases/download/v2.1.0/localdev-darwin-amd64"
-    sha256 "4e0d440d1d76f4b8d27c5759e066a14e04b103b3b773589839a798ab24ba7465"
+    url "https://fs.gcp.pype.tech/releases/download/v1.1.0/localdev-darwin-amd64"
+    sha256 "d5b9c3d97a3b2f0a3c918c84ea0f2114de8197cfd5f534c6527c8b187fb2c6e0"
   end
 
   def pre_install
