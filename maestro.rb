@@ -4,24 +4,24 @@
 class Maestro < Formula
   desc "Compiler for the Pypestream Maestro DSL"
   homepage "https://github.com/pypestream/maestro-compiler"
-  version "0.4.0"
+  version "0.3.6"
   license "Proprietary"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://maestro-cli.main.pypestream.dev/0.4.0/maestro-darwin-arm64"
-      sha256 "1a3bc685e0a2c15b207dcf5972ce7794fc35ea78de42a41b1863318fb0f4a872"
+      url "https://maestro-cli.main.pypestream.dev/0.3.6/maestro-darwin-arm64"
+      sha256 "5b19038639b8abec942b3cc35383304fa3021c3dad369bedcf1a62ed9ab9da21"
     else
-      url "https://maestro-cli.main.pypestream.dev/0.4.0/maestro-darwin-amd64"
-      sha256 "1c8a14af348353c95e709c57aa224bab7b8064318a3ede328620d49e3de7be96"
+      url "https://maestro-cli.main.pypestream.dev/0.3.6/maestro-darwin-amd64"
+      sha256 "9b94cd0f86b939ab5d7475bb93cae95665cccb6f06f014451b971fcfa6f3d822"
     end
   else
     if Hardware::CPU.arm?
-      url "https://maestro-cli.main.pypestream.dev/0.4.0/maestro-linux-arm64"
-      sha256 "736708848f9c1156eafb27f3ad7830d86bba3321328554c6d184493765e8e04f"
+      url "https://maestro-cli.main.pypestream.dev/0.3.6/maestro-linux-arm64"
+      sha256 "4750b64be5485cb647c45524ea65b0a8b7a5319e688921584e9f7ad763d14d06"
     else
-      url "https://maestro-cli.main.pypestream.dev/0.4.0/maestro-linux-amd64"
-      sha256 "a8b7a9de55b92764ee9707c67050425b56b90c9ebe8708ff451f3c86a449e1d0"
+      url "https://maestro-cli.main.pypestream.dev/0.3.6/maestro-linux-amd64"
+      sha256 "bffc93eb5b8b75f9a6f82962b7830703996828843c7ee17652e127a0b582c17b"
     end
   end
 
